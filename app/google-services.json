@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "68528824042",
+    "project_id": "cycling-cec3d",
+    "storage_bucket": "cycling-cec3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68528824042:android:f5b317ac450f5dafd38193",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZkl040_t9PEdVIzyBAVMmZLApVBjsIag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
