@@ -1,2 +1,10 @@
 # SEG2105_Project_Group96
-SEG2105_Project_Group96
+
+## Group Members
+#### Daniel Awotundun - 300103204
+####
+####
+####
+####
+####
+
