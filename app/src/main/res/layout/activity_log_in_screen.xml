@@ -4,23 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#62B5F6"
     tools:context=".LogInScreen_Activity">
+
+    <Button
+        android:id="@+id/btn_Exit_LogInScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:text="@string/Exit"
+        android:translationX="320dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/btn_Exit_LogInScreen"
-            android:layout_width="wrap_content"
-            android:layout_height="90dp"
-            android:text="@string/Exit"
-            android:translationX="320dp" />
-
         <Space
             android:layout_width="match_parent"
-            android:layout_height="60dp" />
+            android:layout_height="34dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LogIn"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
 
         <Space
             android:layout_width="match_parent"
@@ -33,7 +43,8 @@
             android:layout_gravity="center|center_horizontal|center_vertical"
             android:ems="10"
             android:inputType="text"
-            android:text="@string/prompt_username" />
+            android:text="@string/prompt_username"
+            android:textAlignment="center" />
 
         <EditText
             android:id="@+id/editText_Password"
@@ -41,7 +52,8 @@
             android:layout_height="100dp"
             android:ems="10"
             android:inputType="text"
-            android:text="@string/prompt_password" />
+            android:text="@string/prompt_password"
+            android:textAlignment="center" />
 
         <Space
             android:layout_width="match_parent"

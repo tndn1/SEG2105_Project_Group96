@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#62B5F6"
     tools:context=".AdminMainActivity">
 
     <Space
@@ -16,6 +17,7 @@
         android:layout_height="60dp"
         android:text="@string/AdminMainPage"
         android:textAlignment="center"
+        android:textColor="#FBFBFB"
         android:textSize="50sp"
         android:textStyle="bold"
         android:translationY="75dp" />
@@ -24,12 +26,12 @@
         android:layout_width="match_parent"
         android:layout_height="25dp" />
 
-    <Button
-        android:id="@+id/button_AdminMain_Exit"
+    <ImageButton
+        android:id="@+id/imageButton_Exit_AdminMain"
         android:layout_width="wrap_content"
-        android:layout_height="69dp"
-        android:text="@string/Exit"
-        android:translationX="320dp" />
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_delete"
+        android:translationX="350dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
