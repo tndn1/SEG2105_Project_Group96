@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="LogIn">Log In</string>
-    <string name="CreateAccount">Create Account</string>
+    <string name="CreateAccount">CREATE ACCOUNT</string>
     <string name="Exit">X</string>
     <string name="prompt_username">Username</string>
     <string name="AdminPrompt">Admin</string>
@@ -9,6 +9,19 @@
     <string name="AdminKeyPrompt">Insert Admin Key</string>
     <string name="AdminMainPage">ADMIN</string>
     <string name="AdminAccountManage">ACCOUNT MANAGEMENT</string>
+    <string name="EventType">EVENT TYPE</string>
+    <string name="EventDescription">DESCRIPTION</string>
+    <string name="ParticipantsAllowed">NUMBER OF PARTICIPANTS ALLOWED</string>
+    <string name="Other">OTHER</string>
+    <string name="CreateEvent">CREATE EVENT</string>
+
+    <string name="Account1">Account1</string>
+    <string name="Account2">Account2</string>
+    <string name="Account3">Account3</string>
+    <string name="DateJoined">DD/MM/YYYY</string>
+    <string name="UserNameTitle">USER NAME</string>
+    <string name="DateJoinedTitle">DATE JOINED</string>
+
 
 
 
